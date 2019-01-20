@@ -31,7 +31,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1 style="font-size: 5em; top: 17%; right: 19%;" class="neon" data-text="Instagram"><?php echo "Instagram"; ?></h1>
+	<h1 style="font-size: 5em; top: 17%; right: 19%;" class="neon" data-text="Learn With Us"><?php echo "Learn With Us"; ?></h1>
 	<div class="box">
 		<h2>Sign up</h2>
 		<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">

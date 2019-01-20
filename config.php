@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "instagram";
+$dbname = "learn_with_us";
 
 //Create connection
 $conn = mysqli_connect($servername,$username,$password,$dbname);
