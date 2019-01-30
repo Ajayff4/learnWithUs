@@ -1,0 +1,23 @@
+<?php
+	include 'config.php';
+	$questionQuery = "SELECT * FROM uploads WHERE sr_no='$rand'";
+			$questionObj = mysqli_query($conn, $questionQuery);
+			$row = mysqli_fetch_assoc($questionObj);
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+</head>
+<body>
+<form method="GET"> 
+	<input type="radio" name="t" value=<?php $row['opt1']?>>1
+	<input type="radio" name="t" value="a bc def">2
+	<input type="radio" name="t" value="a bc def">3
+	<input type="radio" name="t" value="a bc def">4
+	<input type="submit" name="submit">
+</form>
+</body>
+</html>

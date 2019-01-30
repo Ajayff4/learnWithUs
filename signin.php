@@ -1,4 +1,6 @@
 <?php
+	session_start();
+	session_destroy();
 	require 'config.php';
 
     $username=$password="";
@@ -14,7 +16,9 @@
       if(mysqli_num_rows($query)>0)
       {
         echo"<script>alert('You are signed in successfully.')</script>";
-        #header('Location:index.php');
+        session_start();
+     	$_SESSION['username'] = $username;
+        header('Location:profile.php');
       }
       else
       {
