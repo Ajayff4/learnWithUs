@@ -42,6 +42,7 @@
 	<title>Home Page</title>
   <link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="favicon.jpg" />
 </head>
 <body>
 	<h1 style="font-size: 5em; top: 17%; right: 19%;" class="neon" data-text="Learn With Us"><?php echo "Learn With Us"; ?></h1>

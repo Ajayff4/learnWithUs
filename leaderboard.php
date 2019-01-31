@@ -31,6 +31,7 @@
 		  color: white;
 		}
 	</style>
+	<link rel="shortcut icon" href="favicon.jpg" />
 </head>
 <body>
 	<form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">

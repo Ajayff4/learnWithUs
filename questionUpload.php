@@ -40,6 +40,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="shortcut icon" href="favicon.jpg" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Question Upload Interface</title>
 </head>
