@@ -10,3 +10,4 @@ random question occurance page(clock tickling for 30 second, anyone of these(4 o
 result page after quiz(result of 5 question round, with right or wrong)
 forget pass page(username+64bit seed = pass reset)
 about
+quiz.php will work like previously if we just uncomment the commented code.
